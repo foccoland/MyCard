@@ -11,6 +11,8 @@
 		50326E0827FB1A0C00642BED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50326E0727FB1A0C00642BED /* ContentView.swift */; };
 		50326E0A27FB1A0E00642BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50326E0927FB1A0E00642BED /* Assets.xcassets */; };
 		50326E0D27FB1A0E00642BED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50326E0C27FB1A0E00642BED /* Preview Assets.xcassets */; };
+		50326E1427FB1A4300642BED /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50326E1327FB1A4300642BED /* InfoView.swift */; };
+		50326E1727FB1A9400642BED /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50326E1627FB1A9400642BED /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		50326E0727FB1A0C00642BED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50326E0927FB1A0E00642BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50326E0C27FB1A0E00642BED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50326E1327FB1A4300642BED /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		50326E1627FB1A9400642BED /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		50326E1827FB1AE500642BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,8 @@
 		50326DF927FB1A0C00642BED = {
 			isa = PBXGroup;
 			children = (
+				50326E1527FB1A7F00642BED /* Fonts */,
+				50326E1327FB1A4300642BED /* InfoView.swift */,
 				50326E0427FB1A0C00642BED /* FabioCard */,
 				50326E0327FB1A0C00642BED /* Products */,
 			);
@@ -51,6 +58,7 @@
 		50326E0427FB1A0C00642BED /* FabioCard */ = {
 			isa = PBXGroup;
 			children = (
+				50326E1827FB1AE500642BED /* Info.plist */,
 				50326E0527FB1A0C00642BED /* FabioCardApp.swift */,
 				50326E0727FB1A0C00642BED /* ContentView.swift */,
 				50326E0927FB1A0E00642BED /* Assets.xcassets */,
@@ -65,6 +73,14 @@
 				50326E0C27FB1A0E00642BED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50326E1527FB1A7F00642BED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				50326E1627FB1A9400642BED /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50326E1727FB1A9400642BED /* Pacifico-Regular.ttf in Resources */,
 				50326E0D27FB1A0E00642BED /* Preview Assets.xcassets in Resources */,
 				50326E0A27FB1A0E00642BED /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50326E0827FB1A0C00642BED /* ContentView.swift in Sources */,
+				50326E1427FB1A4300642BED /* InfoView.swift in Sources */,
 				50326E0627FB1A0C00642BED /* FabioCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 46MV55N6WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FabioCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 46MV55N6WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FabioCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
